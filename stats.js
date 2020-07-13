@@ -1,6 +1,7 @@
 /*jshint node:true, laxcomma:true */
 
 const util = require('util');
+//test
 const config = require('./lib/config');
 const helpers = require('./lib/helpers');
 const fs = require('fs');
@@ -499,7 +500,7 @@ config.configFile(process.argv[2], function (config) {
     }
   }
 });
-
+//test2
 process.on('exit', function () {
   flushMetrics();
 });
